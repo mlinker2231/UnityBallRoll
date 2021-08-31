@@ -32,5 +32,9 @@ public class PlayerController : MonoBehaviour
 
         rb.AddForce(movement * speed);
     }
+    void Update()
+    {
+        speed += 1 * Time.deltaTime;
+    }
 
 }

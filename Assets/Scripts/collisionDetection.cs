@@ -4,9 +4,18 @@ using UnityEngine;
 
 public class collisionDetection : MonoBehaviour
 {
-    private void OnTriggerEnter(Collider other)
+    public Transform player;
+
+
+    private void OnCollisionEnter(Collision collision)
     {
 
-        Debug.Log("hello");
+        if (collision.GetContact(0).point.y > .51)
+        {
+
+            collision.collider.transform.SetPositionAndRotation(player.position - new Vector3(400, (float)0.2, 400), new Quaternion(0, 0, 0, 0));
+        }
+
+
     }
 }

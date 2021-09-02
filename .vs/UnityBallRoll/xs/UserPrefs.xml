@@ -1,18 +1,20 @@
-﻿<Properties StartupConfiguration="{41847ABB-C717-337A-6D79-B2A844F6815A}|">
+﻿<Properties>
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/collisionDetection.cs">
     <Files>
-      <File FileName="Assets/Scripts/PlayerController.cs" Line="31" Column="67" />
-      <File FileName="Assets/Scripts/ScoreUpdate.cs" Line="14" Column="34" />
-      <File FileName="Assets/Scripts/TreeCollsion.cs" Line="14" Column="10" />
-      <File FileName="Assets/Scripts/collisionDetection.cs" Line="16" Column="110" />
+      <File FileName="Assets/Scripts/PlayerController.cs" Line="31" Column="39" />
+      <File FileName="Assets/Scripts/ScoreUpdate.cs" />
+      <File FileName="Assets/Scripts/TreeCollsion.cs" />
+      <File FileName="Assets/Scripts/collisionDetection.cs" Line="16" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="UnityBallRoll" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Scripts" expanded="True">
-                <Node name="collisionDetection.cs" selected="True" />
+            <Node name="Assembly-CSharp" expanded="True">
+              <Node name="Assets" expanded="True">
+                <Node name="Scripts" expanded="True">
+                  <Node name="collisionDetection.cs" selected="True" />
+                </Node>
               </Node>
             </Node>
           </Node>

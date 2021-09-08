@@ -239,7 +239,6 @@ GameObject:
   - component: {fileID: 513929939}
   - component: {fileID: 513929940}
   - component: {fileID: 513929938}
-  - component: {fileID: 513929941}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -382,20 +381,6 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
---- !u!114 &513929941
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 513929933}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 008c420baf5c241129dae6aed38fd444, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 513929937}
-  textLabel: {fileID: 1136795888}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -816,6 +801,7 @@ GameObject:
   - component: {fileID: 1258613114}
   - component: {fileID: 1258613113}
   - component: {fileID: 1258613112}
+  - component: {fileID: 1258613115}
   m_Layer: 0
   m_Name: Final Level Terrain
   m_TagString: Untagged
@@ -845,10 +831,10 @@ Terrain:
   serializedVersion: 6
   m_TerrainData: {fileID: 15600000, guid: 3a1d55e626c5e469da117092481a2a74, type: 2}
   m_TreeDistance: 5000
-  m_TreeBillboardDistance: 50
+  m_TreeBillboardDistance: 629
   m_TreeCrossFadeLength: 5
-  m_TreeMaximumFullLODCount: 50
-  m_DetailObjectDistance: 80
+  m_TreeMaximumFullLODCount: 10000
+  m_DetailObjectDistance: 108
   m_DetailObjectDensity: 1
   m_HeightmapPixelError: 5
   m_SplatMapDistance: 1000
@@ -881,6 +867,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1258613115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1258613111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 008c420baf5c241129dae6aed38fd444, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  textLabel: {fileID: 0}
 --- !u!1 &1746716970
 GameObject:
   m_ObjectHideFlags: 0
@@ -892,6 +892,7 @@ GameObject:
   - component: {fileID: 1746716973}
   - component: {fileID: 1746716972}
   - component: {fileID: 1746716971}
+  - component: {fileID: 1746716974}
   m_Layer: 0
   m_Name: Level 2 Terrain
   m_TagString: Untagged
@@ -921,10 +922,10 @@ Terrain:
   serializedVersion: 6
   m_TerrainData: {fileID: 15600000, guid: 7e6e642f3049945ecbeb0f82a4a9009e, type: 2}
   m_TreeDistance: 5000
-  m_TreeBillboardDistance: 50
+  m_TreeBillboardDistance: 758
   m_TreeCrossFadeLength: 5
-  m_TreeMaximumFullLODCount: 50
-  m_DetailObjectDistance: 80
+  m_TreeMaximumFullLODCount: 10000
+  m_DetailObjectDistance: 104
   m_DetailObjectDensity: 1
   m_HeightmapPixelError: 5
   m_SplatMapDistance: 1000
@@ -957,6 +958,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1746716974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1746716970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 008c420baf5c241129dae6aed38fd444, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  textLabel: {fileID: 0}
 --- !u!1 &1812289064
 GameObject:
   m_ObjectHideFlags: 0
@@ -969,6 +984,7 @@ GameObject:
   - component: {fileID: 1812289066}
   - component: {fileID: 1812289065}
   - component: {fileID: 1812289068}
+  - component: {fileID: 1812289069}
   m_Layer: 0
   m_Name: Start Terrain
   m_TagString: Untagged
@@ -997,11 +1013,11 @@ Terrain:
   m_Enabled: 1
   serializedVersion: 6
   m_TerrainData: {fileID: 15600000, guid: cc284b802edda45a6bbbf68d11d5340f, type: 2}
-  m_TreeDistance: 5000
-  m_TreeBillboardDistance: 82
+  m_TreeDistance: 323
+  m_TreeBillboardDistance: 436
   m_TreeCrossFadeLength: 37
-  m_TreeMaximumFullLODCount: 3871
-  m_DetailObjectDistance: 80
+  m_TreeMaximumFullLODCount: 10000
+  m_DetailObjectDistance: 250
   m_DetailObjectDensity: 1
   m_HeightmapPixelError: 5
   m_SplatMapDistance: 1000
@@ -1047,6 +1063,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1812289069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1812289064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 008c420baf5c241129dae6aed38fd444, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 513929937}
+  textLabel: {fileID: 1136795888}
 --- !u!1 &1941804176
 GameObject:
   m_ObjectHideFlags: 0

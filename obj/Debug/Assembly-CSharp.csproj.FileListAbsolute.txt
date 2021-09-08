@@ -1,0 +1,2 @@
+/Users/mlinker2231/Desktop/GitHub/UnityBallRoll/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache
+/Users/mlinker2231/Desktop/GitHub/UnityBallRoll/obj/Debug/Assembly-CSharp.csproj.CoreCompileInputs.cache

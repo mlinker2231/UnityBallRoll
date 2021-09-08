@@ -14,13 +14,12 @@ public class collisionDetection : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
 
-        if (collision.GetContact(0).point.y > .21)
+        if (collision.gameObject.name == "Player" && collision.transform.position.y >= .5)
         {
-            player.SetPositionAndRotation(new Vector3(player.position.x, player.position.y), new Quaternion());
-            collision.collider.transform.SetPositionAndRotation(player.position - new Vector3(400, (float)0.2, 400), new Quaternion(0, 0, 0, 0));
-            GameObject thePlayer = GameObject.Find("Player");
-            PlayerController playerScript = thePlayer.GetComponent<PlayerController>();
-            playerScript.speed = 10;
+
+            collision.gameObject.transform.SetPositionAndRotation(new Vector3(0, 0.5f, 0), new Quaternion());
+            PlayerController playerScript = player.GetComponent<PlayerController>();
+            playerScript.speed = 5;
         }
 
 

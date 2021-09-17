@@ -59,6 +59,7 @@
     <Compile Include="Assets/Scripts/collisionDetection.cs" />
     <Compile Include="Assets/Scripts/TreeCollsion.cs" />
     <Compile Include="Assets/Scripts/CameraController.cs" />
+    <Compile Include="Assets/Scripts/RealCollision.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />

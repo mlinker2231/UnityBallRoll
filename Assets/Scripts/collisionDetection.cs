@@ -12,8 +12,9 @@ public class collisionDetection : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.name == "tree")
+        if (collision.gameObject.name == "Tree"  || collision.gameObject.name == "Tree1" || collision.gameObject.name == "Tree2")
         {
+
 
             print(collision.gameObject.tag);
             print(collision);
@@ -21,7 +22,8 @@ public class collisionDetection : MonoBehaviour
             player.transform.SetPositionAndRotation(new Vector3(0, 0.5f, 0), new Quaternion());
             PlayerController playerScript = player.GetComponent<PlayerController>();
             playerScript.speed = 5;
+
         }
+
     }
-        
 }

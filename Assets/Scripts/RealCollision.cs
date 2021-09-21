@@ -6,26 +6,28 @@ public class RealCollision : MonoBehaviour
 {
 
     public Transform player;
+    public Terrain terrain;
+    public GameObject pgobTreeCollide;
 
-private  TreeInstance[]  paryTrees;
+
+    private TreeInstance[]  paryTrees;
 private Vector3 pvecTerrainPosition;
 private Vector3 pvecTerrainSize;
-private GameObject pgobTreeCollide;
 private Vector3 pvecCollideScale;
 private bool pbooCollideWithTrees = false;
 
  void Start()
     {
         // Get the terrain's position
-        pvecTerrainPosition = Terrain.activeTerrain.transform.position;
+        pvecTerrainPosition = terrain.transform.position;
 
         // Get the terrain's size from the terrain data
-        pvecTerrainSize = Terrain.activeTerrain.terrainData.size;
+        pvecTerrainSize = terrain.terrainData.size;
         // Get the tree instances
-        paryTrees = Terrain.activeTerrain.terrainData.treeInstances;
+        paryTrees = terrain.terrainData.treeInstances;
 
         // Get the invisible capsule having the capsule collider that makes the nearest tree solid
-        pgobTreeCollide = GameObject.Find("Tree"); // This is a capsule having a capsule collider, but when the flier hits it we want it to be reported that the flier hit a tree.
+       // pgobTreeCollide = GameObject.Find("Tree"); // This is a capsule having a capsule collider, but when the flier hits it we want it to be reported that the flier hit a tree.
 
         // Are there trees and a tree collider?
         if ((pgobTreeCollide != null) && (paryTrees.Length > 0))

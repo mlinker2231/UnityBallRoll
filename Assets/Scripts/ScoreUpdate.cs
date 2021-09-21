@@ -22,7 +22,7 @@ public class ScoreUpdate : MonoBehaviour
            
         }if (player.position.z >= 650 && player.position.z <= 700)
         {
-            winText.transform.SetPositionAndRotation(winText.transform.position, new Quaternion(0f, 90f, 0f, 0f));
+            winText.transform.SetPositionAndRotation(winText.transform.position, new Quaternion(90f, 90f, 90f, 90f));
         }
         if (player.position.z >= 1800 && player.position.z <= 1900)
         {
@@ -32,7 +32,7 @@ public class ScoreUpdate : MonoBehaviour
         }
         if (player.position.z >= 1950 && player.position.z <= 2000)
         {
-            winText.transform.SetPositionAndRotation(winText.transform.position, new Quaternion(0f, 90f, 0f, 0f));
+            winText.transform.SetPositionAndRotation(winText.transform.position, new Quaternion(90f, 90f, 90f, 90f));
         }
         if (player.position.z >= 3000 && player.position.z <= 3100)
         {
@@ -42,7 +42,7 @@ public class ScoreUpdate : MonoBehaviour
         }
         if (player.position.z >= 3150 && player.position.z <= 3200)
         {
-            winText.transform.SetPositionAndRotation(winText.transform.position, new Quaternion(0f, 90f, 0f, 0f));
+            winText.transform.SetPositionAndRotation(winText.transform.position, new Quaternion(90f, 90f, 90f, 90f));
         }
     }
 

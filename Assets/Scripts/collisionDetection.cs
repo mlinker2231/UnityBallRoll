@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class collisionDetection : MonoBehaviour
 {
     public Transform player;
+    public AudioSource audioSource;
 
 
 
@@ -22,6 +23,9 @@ public class collisionDetection : MonoBehaviour
             player.transform.SetPositionAndRotation(new Vector3(0, 0.5f, 0), new Quaternion());
             PlayerController playerScript = player.GetComponent<PlayerController>();
             playerScript.speed = 5;
+            audioSource.Stop();
+            audioSource.Play();
+            
 
         }
 

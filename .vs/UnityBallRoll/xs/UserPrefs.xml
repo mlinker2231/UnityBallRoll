@@ -1,13 +1,14 @@
 ﻿<Properties StartupConfiguration="{41847ABB-C717-337A-6D79-B2A844F6815A}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ScoreUpdate.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/collisionDetection.cs">
     <Files>
       <File FileName="Assets/Scripts/testScript.cs" Line="15" Column="6" />
-      <File FileName="Assets/Scripts/PlayerController.cs" />
-      <File FileName="Assets/Scripts/collisionDetection.cs" Line="15" Column="128" />
+      <File FileName="Assets/Scripts/PlayerController.cs" Line="35" Column="22" />
+      <File FileName="Assets/Scripts/collisionDetection.cs" Line="27" Column="32" />
       <File FileName="Assets/Scripts/CameraController.cs" />
       <File FileName="Assets/Scripts/TreeCollsion.cs" />
-      <File FileName="Assets/Scripts/ScoreUpdate.cs" Line="45" Column="113" />
+      <File FileName="Assets/Scripts/ScoreUpdate.cs" Line="49" Column="2" />
       <File FileName="Assets/Scripts/RealCollision.cs" Line="26" Column="34" />
+      <File FileName="Assets/transferScene.cs" Line="13" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -25,7 +26,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="1ae20578-bee5-4b17-9ef0-8850dc5718a3" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="5f9de18f-e6dd-4cdb-b44c-5b2e32b73c33" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

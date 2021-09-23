@@ -37,7 +37,7 @@ public class ScoreUpdate : MonoBehaviour
         if (player.position.z >= 3000 && player.position.z <= 3100)
         {
             winText.transform.SetPositionAndRotation(winText.transform.position, new Quaternion(0f, 0f, 0f, 0f));
-            winText.text = "Final 3 Complete";
+            winText.text = "Final level Complete";
 
         }
         if (player.position.z >= 3150 && player.position.z <= 3200)

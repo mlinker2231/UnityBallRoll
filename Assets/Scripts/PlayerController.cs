@@ -32,7 +32,7 @@ public class PlayerController : MonoBehaviour
     }
     void Update()
     {
-        speed += 1 * Time.deltaTime;
+        speed += .33f * Time.deltaTime;
     }
 
 }

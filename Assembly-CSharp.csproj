@@ -56,10 +56,11 @@
     <Compile Include="Assets/Scripts/ScoreUpdate.cs" />
     <Compile Include="Assets/Scripts/PlayerController.cs" />
     <Compile Include="Assets/Scripts/testScript.cs" />
+    <Compile Include="Assets/Scripts/RealCollision.cs" />
     <Compile Include="Assets/Scripts/collisionDetection.cs" />
     <Compile Include="Assets/Scripts/TreeCollsion.cs" />
     <Compile Include="Assets/Scripts/CameraController.cs" />
-    <Compile Include="Assets/Scripts/RealCollision.cs" />
+    <Compile Include="Assets/Scripts/transferScene.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
